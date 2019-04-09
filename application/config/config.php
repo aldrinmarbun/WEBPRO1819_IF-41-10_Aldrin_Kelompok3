@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/tubeswebpro/';
+$config['base_url'] = 'http://localhost/WEBPRO1819_IF-41-10_Aldrin_Kelompok3/';
 
 /*
 |--------------------------------------------------------------------------

@@ -123,28 +123,28 @@
             <nav class="nav justify-content-center">
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Beranda</a>
+                        <a class="nav-link" href="<?= site_url('C_main_view') ?>">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Profil</a>
+                        <a class="nav-link" href="<?= site_url('C_main_view/profil') ?>">Profil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Berita</a>
+                        <a class="nav-link" href="<?= site_url('C_main_view/berita') ?>">Berita</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Solusi</a>
+                        <a class="nav-link" href="<?= site_url('C_main_view/solusi') ?>">Solusi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="<?= site_url('C_main_view/portfolio') ?>">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Karir</a>
+                        <a class="nav-link" href="<?= site_url('C_main_view/karir') ?>">Karir</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Kontak</a>
+                        <a class="nav-link" href="<?= site_url('C_main_view/kontak') ?>">Kontak</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Galeri</a>
+                        <a class="nav-link" href="<?= site_url('C_main_view/galeri') ?>">Galeri</a>
                     </li>
                 </ul>
             </nav>
@@ -158,13 +158,13 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item">
-                        <img src="img/1.jpg" class="d-block w-100" alt="">
+                        <img src="<?= base_url('assets/img/1.jpg') ?>" class="d-block w-100" alt="">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/2.jpg" class="d-block w-100" alt="">
+                        <img src="<?= base_url('assets/img/2.jpg') ?>" class="d-block w-100" alt="">
                     </div>
                     <div class="carousel-item active">
-                        <img src="img/3.jpg" class="d-block w-100" alt="">
+                        <img src="<?= base_url('assets/img/3.jpg') ?>" class="d-block w-100" alt="">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">

@@ -13,49 +13,49 @@
             $this->load->view('template', $content);
         }
 
-        public function viewProfil(){
+        public function profil(){
             $content['title'] = 'Profil';
             $content['main_content'] = 'content/profil';
             $content['sidebar'] = true;
             $this->load->view('template', $content);
         }
 
-        public function viewBerita(){
+        public function berita(){
             $content['title'] = 'Berita';
             $content['main_content'] = 'content/berita';
             $content['sidebar'] = true;
             $this->load->view('template', $content);
         }
 
-        public function viewSolusi(){
+        public function solusi(){
             $content['title'] = 'Solusi';
             $content['main_content'] = 'content/solusi';
             $content['sidebar'] = true;
             $this->load->view('template', $content);
         }
 
-        public function viewPortfolio(){
+        public function portfolio(){
             $content['title'] = 'Portfolio';
             $content['main_content'] = 'content/portfolio';
             $content['sidebar'] = true;
             $this->load->view('template', $content);
         }
 
-        public function viewKarir(){
+        public function karir(){
             $content['title'] = 'Karir';
             $content['main_content'] = 'content/karir';
             $content['sidebar'] = true;
             $this->load->view('template', $content);
         }
 
-        public function viewKontak(){
+        public function kontak(){
             $content['title'] = 'Kontak';
             $content['main_content'] = 'content/kontak';
             $content['sidebar'] = true;
             $this->load->view('template', $content);
         }
 
-        public function viewGaleri(){
+        public function galeri(){
             $content['title'] = 'Galeri';
             $content['main_content'] = 'content/galeri';
             $content['sidebar'] = false;
