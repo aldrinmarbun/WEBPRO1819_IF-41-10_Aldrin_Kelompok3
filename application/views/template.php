@@ -185,7 +185,7 @@
                 </div>
             </main>
             <footer class="web-footer bg-white">
-                <a href="">Beranda</a> | <a href="">Profil</a> | <a href="">Berita</a> | <a href="">Solusi</a> | <a href="">Portfolio</a> | <a href="">Karir</a> | <a href="">Kontak</a> | <a href="">Galeri</a>
+                <a href="<?= site_url('C_main_view') ?>">Beranda</a> | <a href="<?= site_url('C_main_view/profil') ?>">Profil</a> | <a href="<?= site_url('C_main_view/berita') ?>">Berita</a> | <a href="<?= site_url('C_main_view/solusi') ?>">Solusi</a> | <a href="<?= site_url('C_main_view/portfolio') ?>">Portfolio</a> | <a href="<?= site_url('C_main_view/karir') ?>">Karir</a> | <a href="<?= site_url('C_main_view/kontak') ?>">Kontak</a> | <a href="<?= site_url('C_main_view/galeri') ?>">Galeri</a>
                 <p>© 2004 - 2019 Copyright PT. Global Intermedia Nusantara</p>
                 <p>PT. Global Intermedia Nusantara</p>
                 <p>Jl. Taman Siswa No. 125 Yogyakarta 55151 </p>
