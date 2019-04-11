@@ -1,7 +1,7 @@
 <aside class="col-md-4 web-sidebar">
     <div class="p-4">
         <h4>Rekrutmen Pegawai</h4>
-        <button type="button" class="btn btn-outline-danger">Aplikasi Rekrutmen</button>
+        <button type="button" class="btn btn-outline-danger"><a href="<?= site_url('C_req') ?>">Aplikasi Rekrutmen</a></button>
     </div>
 
     <div class="p-4">
