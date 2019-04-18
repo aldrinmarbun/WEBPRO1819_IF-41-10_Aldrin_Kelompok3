@@ -61,5 +61,22 @@
             $content['sidebar'] = false;
             $this->load->view('template', $content);
         }
+
+        //halaman yang ada di profil
+        public function sejarah()
+        {
+            $content['title'] = 'Sejarah';
+            $content['main_content'] = 'content/profil/sejarah';
+            $ccontent['sidebar'] = true;
+            $this->load->view('template',$content);
+        }
+
+        public function tanggungjawab()
+        {
+            $content['title'] = 'Tanggung Jawab';
+            $content['main_content'] = 'content/profil/tanggungjawab';
+            $ccontent['sidebar'] = true;
+            $this->load->view('template',$content);
+        }
     }
 ?>

@@ -39,38 +39,38 @@
 	<p><a href='#'>Lowongan Pekerjaan </a></p>
 	<p><b>12 Oktober 2018</b></p>
 		<p><p><strong>MEMBUTUHKAN</strong></p>
-        <p>ANDROID PROGRAMMER (AP):</p>
-        <ol>
-            <li>Min D3 Teknik Informatika/Elektro/Ilmu Komputer</li>
-            <li>Menguasai pemrograman menggunakan Android Studio (Java, Kotlin)</li>
-            <li>Menguasai konseppemrograman berorientasi objek</li>
-            <li>Berpengalaman menggunakan API, JSON, XML</li>
-            <li>Menguasai SQL merupakan nilai tambah</li>
-            <li>Pengalaman dalam mengembangkan aplikasi erbasis android menjadi nilai tambah</li>
-            <li>Mampu bekerja dalam tim dan jadwal yang ketat</li>
-            <li>Memiliki kemampuan komunikasi yang baik</li>
-        </ol>
-        <p>TECHNICAL SUPPORT (TS):</p>
-        <ol>
-            <li>Min D3 Teknik Informatika/Elektro/Ilmu Komputer</li>
-            <li>Kemampuan dalam mengoperasikan perangkat Mikrotik menjadi nilai tambah</li>
-            <li>Memiliki kemampuan komunikasi yang baik</li>
-            <li>Memiliki kemauan belajar</li>
-            <li>Menguasai/familiar dengan komputer</li>
-            <li>Bersedia ditempatkan di seluruh wilayah Indonesia</li>
-        </ol>
-        <p>ACCOUNTING (AKT):</p>
-        <ol>
-            <li>Min D3 Akuntansi</li>
-            <li>Diutamakan akuntansi sektor Pemerintahan</li>
-            <li>Memiliki kemampan komunikasi yang baik</li>
-            <li>Memiliki kemauan belajar</li>
-            <li>Menguasai / familiar dengan komputer</li>
-            <li>Bersedia ditempatkan di seluruh wilayah Indonesia</li>
-        </ol>
-        <p>Registrasi lamaran melalui online website atau email:</p>
-        <p>www.gi.co.id atau hcm@gi.co.id</p>
-        <p>LAMARAN DITERIMA PALING LAMBAT TANGGAL 9 NOVEMBER 2018</p></p>
+<p>ANDROID PROGRAMMER (AP):</p>
+<ol>
+    <li>Min D3 Teknik Informatika/Elektro/Ilmu Komputer</li>
+    <li>Menguasai pemrograman menggunakan Android Studio (Java, Kotlin)</li>
+    <li>Menguasai konseppemrograman berorientasi objek</li>
+    <li>Berpengalaman menggunakan API, JSON, XML</li>
+    <li>Menguasai SQL merupakan nilai tambah</li>
+    <li>Pengalaman dalam mengembangkan aplikasi erbasis android menjadi nilai tambah</li>
+    <li>Mampu bekerja dalam tim dan jadwal yang ketat</li>
+    <li>Memiliki kemampuan komunikasi yang baik</li>
+</ol>
+<p>TECHNICAL SUPPORT (TS):</p>
+<ol>
+    <li>Min D3 Teknik Informatika/Elektro/Ilmu Komputer</li>
+    <li>Kemampuan dalam mengoperasikan perangkat Mikrotik menjadi nilai tambah</li>
+    <li>Memiliki kemampuan komunikasi yang baik</li>
+    <li>Memiliki kemauan belajar</li>
+    <li>Menguasai/familiar dengan komputer</li>
+    <li>Bersedia ditempatkan di seluruh wilayah Indonesia</li>
+</ol>
+<p>ACCOUNTING (AKT):</p>
+<ol>
+    <li>Min D3 Akuntansi</li>
+    <li>Diutamakan akuntansi sektor Pemerintahan</li>
+    <li>Memiliki kemampan komunikasi yang baik</li>
+    <li>Memiliki kemauan belajar</li>
+    <li>Menguasai / familiar dengan komputer</li>
+    <li>Bersedia ditempatkan di seluruh wilayah Indonesia</li>
+</ol>
+<p>Registrasi lamaran melalui online website atau email:</p>
+<p>www.gi.co.id atau hcm@gi.co.id</p>
+<p>LAMARAN DITERIMA PALING LAMBAT TANGGAL 9 NOVEMBER 2018</p></p>
 </div>
 <br>
 <div>
@@ -104,8 +104,8 @@
 <div>diterima paling lambat</div>
 <div>16 Oktober 2018</div>
 <div>&nbsp;</div></p>
-<!--</div>
-</div></p></div><div>-->
+<!-- </div> -->
+<!-- </div></p></div><div> -->
 						<p><a href='#'>Pengumuman Peserta Test Tertulis dan Wawancara PT Global Intermedia Nusantara</a></p>
 						<p><b>09 Januari 2018</b></p>
 						<p><p><span style="font-size: 14.6667px;">DAFTAR PESERTA TES WAWANCARA</span></p></p></div><div>
