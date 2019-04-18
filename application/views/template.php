@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="author" content="just say it, us as a 'BIG TASK' creator :)">
-        <link rel="stylesheet" href="<?= base_url('assets/bootstrap/css/karir.css')?>">
+        <link rel="stylesheet" href="<?= base_url('assets/bootstrap/css/kon-kar.css')?>">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
         <title><?= $title ?></title>

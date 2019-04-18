@@ -1,0 +1,28 @@
+.content h1 {
+    background-color: #B23322;
+    font-family: "Trebuchet MS", Verdana;
+    font-size: 23px;
+    color: #fff;
+    text-align: left;
+    height:auto;
+    width : 533px;
+    margin : 13px 0 13px 0px;
+    padding : 5px 0 3px 10px;
+
+}
+.lnk{
+    font-family: Verdana;
+    font-size: 11px;
+    background-color: #fff;
+    height: 38px;
+    width : 570px;
+    display : block;
+    color: #FF9900;
+    font-weight: 700;
+
+}
+
+p{
+    font-size: 11px;
+    
+}
