@@ -2,7 +2,21 @@ body{
     background-color: #D33C27;
 }
 
-.navbar navbar-inverse {
+.navbar {
     background-color: black;
     color: #333;
 }
+
+a, a:hover:before{
+    color: #fff;
+}
+
+.wrap-large{
+    background-color: #fff;
+    text-align: left;
+}
+
+.panel-heading{
+    background-color: orange;
+}
+
