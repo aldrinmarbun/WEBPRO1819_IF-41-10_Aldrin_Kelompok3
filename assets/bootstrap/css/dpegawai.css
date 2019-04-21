@@ -1,0 +1,32 @@
+body{
+    background-color: #D33C27;
+}
+.navbar{
+    background-color: black;
+    float : left;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#clr{
+    color: #333;
+}
+
+.clr:hover{
+    color: white;  
+}
+
+.container{
+    padding-top: 80px;
+    background-color: #fff;
+}
+
+.card{
+    font-size: 14px;    
+}
+
+.card-header{
+    background-color:#ffbc3e; 
+}
+

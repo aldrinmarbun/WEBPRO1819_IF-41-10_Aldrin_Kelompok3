@@ -22,8 +22,8 @@
           <li class="dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Login</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Admin PKL</a></li>
-            <li><a class="dropdown-item" href="#">Admin Pegawai</a></li>
+            <li><a class="dropdown-item" href="#"> <ion-icon name="person"></ion-icon> Admin PKL</a></li>
+            <li><a class="dropdown-item" href="#"> <ion-icon name="person"></ion-icon> Admin Pegawai</a></li>
           </ul>
           </li>
         </ul>

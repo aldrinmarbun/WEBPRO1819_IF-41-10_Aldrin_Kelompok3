@@ -1,23 +1,22 @@
 body{
     background-color: #D33C27;
 }
-
-.nav-link{
-    color: #333;
+.navbar{
+    background-color: black;
     float : left;
     padding: 15px 15px;
     font-size: 18px;
     line-height: 20px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.navbar{
-    border-bottom : 1px solid black;
-    background-color:black !important;
-
+#clr{
+    color: #333;
 }
 
-a, a:hover{
-    color: #fff !important;
+.clr:hover{
+    color: white;  
 }
 
-
+.container{
+    padding-top: 80px;
+}

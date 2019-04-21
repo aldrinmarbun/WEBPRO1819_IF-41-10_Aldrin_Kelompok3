@@ -4,49 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <title>Pendaftaran Global Intermedia</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Home Penerimaan Pegawai</title>
+    <link rel="stylesheet" href="<?= base_url('assets/bootstrap/css/dpegawai.css')?>">
+    <link rel="icon" href="<?= base_url("assets/img/g.png")?>" type="image/gif" sizes="20x20" >
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation"> 
-      <div class="container ">           
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#"><i class="glyphicon glyphicon-home"></i> Halaman Rekrutmen</a></li>
-            <li><a href="#"><i class="glyphicon glyphicon-info-sign"></i> Pengumuman Lolos Seleksi</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
-              <i class="glyphicon glyphicon-th-large"></i> Login Calon Pegawai<b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                 <li><a id="login" href="login.php" class="load-modal" title="Form Login Calon Pegawai">
-                    <i class="glyphicon glyphicon-user"></i> Sign In</a>
-                  </li>
-                  <li><a href="daftar.php" class="load-modal" title="Form Daftar Akun">
-                    <i class="glyphicon glyphicon-share"></i> Daftar Akun</a>
-                  </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
+    <nav class="navbar navbar-expand-sm fixed-top">
+      <div class="collapse navbar-collapse "  id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-link"><a href="<?= site_url("C_dpegawai")?>" id="clr"><ion-icon name="home"></ion-icon> Halaman Rekrutmen </a></li>
+            <li class="nav-link"><a href="<?= site_url('C_luluseleksi')?>" id="clr"><ion-icon name="information-circle"></ion-icon> Pengumuman Lolos Seleksi</a></li>
+        </ul>
       </div>
-    </div>
-  
-    <div class="container ">
-      <img src="<?= base_url("assets/img/rek.jpg")?>"><br><br>
-      <div class="wrap-large">
-        <ol class="breadcrumb">
-          <li><a href="../index.php">Dashboard</a></li>
-          <li class="active">Halaman Rekrutmen</li>
-        </ol>
-        <div class="row">
+      <div class="collapse navbar-collapse navbar-inline dropdown justify-content-end">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" id="clr"><ion-icon name="logo-windows"></ion-icon>  Login Calon Pegawai</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" class="load-modal" href="#"> <ion-icon name="person"></ion-icon> Sign in</a></li>
+            <li><a class="dropdown-item" class="load-modal" href="#"><ion-icon name="person"></ion-icon> Daftar Akun</a></li>
+          </ul>
+        </ul>
+      </div>
+  </nav>
+    <div class="container">
+      <img class="img-fluid rounded-lg mt-3 mb-2" src="<?= base_url("assets/img/rek.jpg")?>">
+        <ul class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Dashboard </a></li>
+          <li class="breadcrumb-item active">Halaman Rekrutmen</li>
+        </ul>
+        <div class="row pb-2">
           <div class="col-md-6">
-            <div class="panel panel-default">
-            <!-- Default panel contents -->
-              <div class="panel-heading orange">Syarat Umum:</div>
-                <div class="panel-body">
-                  <ul class="syarat">
+            <div class="card">
+              <div class="card-header">Syarat Umum:</div>
+                <div class="card-body">
+                  <ul>
                     <li>Memiliki kemampuan untuk belajar</li>
                     <li>Mampu bekerja dalam tim dan jadwal yang ketat</li>
                     <li>Pengalaman dalam pengembangan aplikasi merupakan nilai tambah</li>
@@ -56,10 +49,9 @@
             </div>
           </div>
           <div class="col-md-6">
-            <div class="panel panel-default">
-            <!-- Default panel contents -->
-              <div class="panel-heading orange">Accounting</div>
-                <div class="panel-body">
+            <div class="card">
+              <div class="card-header">Accounting</div>
+                <div class="card-body">
                   <p>1. Wanita, Single, Pendidikan D3 Akuntasi</p>
                   <p>2. Berdomisili di Yogyakarta</p>
                   <p>3. Menguasai pengoperasian Linux dan OpenOffice</p>     
@@ -67,10 +59,9 @@
               </div>
             </div>
             <div class="col-md-6"> 
-              <div class="panel panel-default">
-              <!-- Default panel contents -->
-                <div class="panel-heading orange">Administrasi</div>
-                <div class="panel-body">
+              <div class="card">
+                <div class="card-header">Administrasi</div>
+                <div class="card-body">
                   <ol>
                     <li>Pendidikan Min D3 jurusan Akuntansi (Diutamakan Pria)</li>
                     <li>Mampu bekerja dalam tim dan jadwal yang ketat</li>
@@ -82,10 +73,9 @@
               </div>
             </div>
             <div class="col-md-6"> 
-              <div class="panel panel-default">
-              <!-- Default panel contents -->
-                <div class="panel-heading orange">Accounting</div>
-                  <div class="panel-body">
+              <div class="card"> 
+                <div class="card-header">Accounting</div>
+                  <div class="card-body">
                     <p>1. Wanita, Single, Pendidikan D3 Akuntasi</p>
                     <p>2. Berdomisili di Yogyakarta</p>
                     <p>3. Menguasai pengoperasian Linux dan OpenOffice�</p>                    
@@ -93,10 +83,9 @@
               </div>
             </div>
             <div class="col-md-6">
-              <div class="panel panel-default">
-              <!-- Default panel contents -->
-                <div class="panel-heading orange">Android Programmer</div>
-                  <div class="panel-body">
+              <div class="card">
+                <div class="card-header">Android Programmer</div>
+                  <div class="card-body">
                     <ol>
                       <li>Min D3 Teknik Informatika/Elektro/Ilmu Komputer</li>
                       <li>Menguasai Pemrograman menggunakan Android Studio (Java, Kotlin)</li>
@@ -110,17 +99,15 @@
               </div>
             </div>
             <div class="col-md-6">
-              <div class="panel panel-default">
-              <!-- Default panel contents -->
-                <div class="panel-heading orange">Database Administrator</div>
-                <div class="panel-body"></div>
+              <div class="card">
+                <div class="card-header">Database Administrator</div>
+                <div class="card-body"></div>
               </div>
             </div>
             <div class="col-md-6">
-              <div class="panel panel-default">
-              <!-- Default panel contents -->
-                <div class="panel-heading orange">Desktop Programer</div>
-                  <div class="panel-body">
+              <div class="card">
+                <div class="card-header">Desktop Programer</div>
+                  <div class="card-body">
                     <ol>
                       <li>Pendidikan Min D3 jurusan Teknologi Informasi, Teknik Elektro atau Ilmu Komputer</li>
                       <li>Menguasai & familiar dengan Borland Delphi</li>
@@ -133,10 +120,9 @@
               </div>
             </div>
             <div class="col-md-6">
-              <div class="panel panel-default">
-              <!-- Default panel contents -->
-                <div class="panel-heading orange">Junior Technical Support</div>
-                  <div class="panel-body">
+              <div class="card">
+                <div class="card-header">Junior Technical Support</div>
+                  <div class="card-body">
                     <ol>
                       <li>Pendidikan Min. SMK bidang komputer</li>
                       <li>Diutamakan Laki-Laki</li>
@@ -147,10 +133,9 @@
               </div>
             </div>
             <div class="col-md-6">        
-              <div class="panel panel-default">
-              <!-- Default panel contents -->
-                <div class="panel-heading orange">Network Administrator</div>
-                  <div class="panel-body">
+              <div class="card">
+                <div class="card-header">Network Administrator</div>
+                  <div class="card-body">
                     <ol>
                       <li>Pendidikan D3/S1 jurusan Teknologi Informasi, Teknik Elektro atau Ilmu Komputer</li>
                       <li>Memiliki kemampuan administrasi dan pemecahan masalah Windows Server, dan infrastruktur jaringan komputer terkait internet dan intranet.</li>
@@ -164,26 +149,24 @@
               </div>
             </div>
             <div class="col-md-6">
-              <div class="panel panel-default">
-              <!-- Default panel contents -->
-                <div class="panel-heading orange">System Analyst</div>
-                 <div class="panel-body">
+              <div class="card">
+                <div class="card-header">System Analyst</div>
+                 <div class="card-body">
                    <ol>
                      <li>Pendidikan Min S1 Bidang Komputer.</li>
                      <li>Diutamakan Laki-laki.</li>
                      <li>Mampu bekerja dalam tim dan jadwal yang ketat.</li>
                      <li>Memiliki kemampuan komunikasi yang baik.</li>
                      <li>Memiliki kemauan untuk belajar dan menguasai komputer.</li>
-                     <li>Bersedia ditempatkan di seluruh wilayah indonesia.</li>
+                     <li>Bersedia ditempatkan di seluruh wilayah indonesia.</li><br><br><br>
                     </ol>
                   </div>
               </div>
             </div>
             <div class="col-md-6">
-              <div class="panel panel-default">
-              <!-- Default panel contents -->
-                <div class="panel-heading orange">Technical Support</div>
-                  <div class="panel-body">
+              <div class="card">
+                <div class="card-header">Technical Support</div>
+                  <div class="card-body">
                     <ol>
                       <li>Pendidikan Min D3/S1 jurusan Teknologi Informasi, Teknik Elektro atau Ilmu Komputer</li>
                       <li>Mampu bekerja dalam tim dan jadwal yang ketat.</li>
@@ -195,10 +178,9 @@
               </div>
             </div>
             <div class="col-md-6">
-              <div class="panel panel-default">
-              <!-- Default panel contents -->
-                <div class="panel-heading orange">Web Programer</div>
-                  <div class="panel-body">
+              <div class="card">
+                <div class="card-header">Web Programer</div>
+                  <div class="card-body">
                     <ol>
                       <li>Pendidikan Min D3/S1 jurusan Teknologi Informasi, Teknik Elektro atau Ilmu Komputer</li>
                       <li>Menguasai dan familiar dengan PHP, MySQL, CSS, HTML, Javascript</li>
@@ -211,22 +193,28 @@
               </div>
             </div>
             <div class="col-md-6">
-              <div class="panel panel-default">
-              <!-- Default panel contents -->
-                <div class="panel-heading orange">Web Content Editor</div>
-                  <div class="panel-body">
-                    <p>1. Pendidikan D3 jurusan Ilmu Komunikasi/Jurnalistik/Bahasa</p>
-                    <p>2. Berpengalaman mengelola website dan media sosial3.</p>
-                    <p>3. Diutamakan memiliki kemampuan Bahasa Inggris</p>
-                    <p>4. Memiliki kemampuan dasar pengolahan gambar digital (PhotoShop, CorelDraw)</p>
+              <div class="card">
+                <div class="card-header">Web Content Editor</div>
+                  <div class="card-body">
+                    <ol>
+                    <li>1. Pendidikan D3 jurusan Ilmu Komunikasi/Jurnalistik/Bahasa</li>
+                    <li>2. Berpengalaman mengelola website dan media sosial3.</li>
+                    <li>3. Diutamakan memiliki kemampuan Bahasa Inggris</li>
+                    <li>4. Memiliki kemampuan dasar pengolahan gambar digital (PhotoShop, CorelDraw)</li>
+                    </ol>
                   </div>
               </div>
             </div>              
         </div>
-      </div>
-      <footer>
-          <p>© Global Intermedia</p>
+        <footer class="pt-3" style="border-top : 1px solid rgb(175,0,0);">
+        <p>© Global Intermedia</p>
       </footer>
-    </div> 
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+
 </body>
 </html>

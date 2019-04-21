@@ -7,6 +7,7 @@
         <meta name="author" content="just say it, us as a 'BIG TASK' creator :)">
         <link rel="stylesheet" href="<?= base_url('assets/bootstrap/css/kon-kar.css')?>">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="icon" href="<?= base_url("assets/img/g.png")?>" type="image/gif" sizes="20x20" >
 
         <title><?= $title ?></title>
         <style>
@@ -110,10 +111,45 @@
             margin-bottom: 0;
             }
             .nav-link{
-                color :crimson;
+                color: white;
+                font-weight: 400;
+                border-top-left-radius: 10px !important;
+                border-top-right-radius: 10px !important; 
+                padding-left:25px;
+                padding-right: 25px;
+                font-size:12px;
+                height:30px;
+                margin-top:10px;
+                margin-bottom: -20px;
+
+            }
+            #satu{     
+            background-image: linear-gradient(to bottom, #FEDC70, #FEC104);
+            }
+            #beranda{
+            background-image: linear-gradient(to bottom, #FFEF5F, #FFE600);
+            }
+            #dua{     
+            background-image: linear-gradient(to bottom, #F6AB62, #F07905);
+            }
+            #tiga{
+            background-image: linear-gradient(to bottom, #FF9C61, #FF6000);
+            }
+            #empat{     
+            background-image: linear-gradient(to bottom, #F39177, #EA3D0F);
+            }
+            #lima{
+            background-image: linear-gradient(to bottom, #D9795F, #C32A00);
+            }
+            #enam{     
+            background-image: linear-gradient(to bottom, #D67A49, #B11D05);
+            }
+            #tujuh{
+            background-image: linear-gradient(to bottom, #B1726D, #85241C);
             }
             .nav-link:hover{
                 color:rgb(146, 0, 0);
+                color :crimson;  
             
             }
         </style>
@@ -133,28 +169,28 @@
             <nav class="nav justify-content-end">
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= site_url('C_main_view') ?>">Beranda</a>
+                        <a id="beranda" class="nav-link" href="<?= site_url('C_main_view') ?>">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= site_url('C_main_view/profil') ?>">Profil</a>
+                        <a id="satu" class="nav-link" href="<?= site_url('C_main_view/profil') ?>">Profil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= site_url('C_main_view/berita') ?>">Berita</a>
+                        <a id="dua" class="nav-link" href="<?= site_url('C_main_view/berita') ?>">Berita</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= site_url('C_main_view/solusi') ?>">Solusi</a>
+                        <a id="tiga" class="nav-link" href="<?= site_url('C_main_view/solusi') ?>">Solusi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= site_url('C_main_view/portfolio') ?>">Portfolio</a>
+                        <a id="empat" class="nav-link" href="<?= site_url('C_main_view/portfolio') ?>">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= site_url('C_main_view/karir') ?>">Karir</a>
+                        <a id="lima" class="nav-link" href="<?= site_url('C_main_view/karir') ?>">Karir</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= site_url('C_main_view/kontak') ?>">Kontak</a>
+                        <a id="enam" class="nav-link" href="<?= site_url('C_main_view/kontak') ?>">Kontak</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= site_url('C_main_view/galeri') ?>">Galeri</a>
+                        <a id="tujuh" class="nav-link" href="<?= site_url('C_main_view/galeri') ?>">Galeri</a>
                     </li>
                 </ul>
             </nav>
