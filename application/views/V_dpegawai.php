@@ -22,7 +22,7 @@
           <li class="dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" id="clr"><ion-icon name="logo-windows"></ion-icon>  Login Calon Pegawai</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" class="load-modal" href="#"> <ion-icon name="person"></ion-icon> Sign in</a></li>
+            <li><a class="dropdown-item" class="load-modal" href="#" data-toggle="modal" data-target="#exampleModal"> <ion-icon name="person"></ion-icon> Sign in</a></li>
             <li><a class="dropdown-item" class="load-modal" href="#"><ion-icon name="person"></ion-icon> Daftar Akun</a></li>
           </ul>
         </ul>
@@ -30,185 +30,214 @@
   </nav>
     <div class="container">
       <img class="img-fluid rounded-lg mt-3 mb-2" src="<?= base_url("assets/img/rek.jpg")?>">
-        <ul class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#">Dashboard </a></li>
-          <li class="breadcrumb-item active">Halaman Rekrutmen</li>
-        </ul>
-        <div class="row pb-2">
-          <div class="col-md-6">
-            <div class="card">
-              <div class="card-header">Syarat Umum:</div>
-                <div class="card-body">
-                  <ul>
-                    <li>Memiliki kemampuan untuk belajar</li>
-                    <li>Mampu bekerja dalam tim dan jadwal yang ketat</li>
-                    <li>Pengalaman dalam pengembangan aplikasi merupakan nilai tambah</li>
-                    <li>Bersedia ditempatkan di seluruh wilayah Indonesia</li>
-                  </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="card">
-              <div class="card-header">Accounting</div>
-                <div class="card-body">
-                  <p>1. Wanita, Single, Pendidikan D3 Akuntasi</p>
-                  <p>2. Berdomisili di Yogyakarta</p>
-                  <p>3. Menguasai pengoperasian Linux dan OpenOffice</p>     
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6"> 
+      <div class="row pb-2">
+        <div class="col-md-12">
+          <div class="wrap bg-white rounded-lg p-4">
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Dashboard </a></li>
+            <li class="breadcrumb-item active">Halaman Rekrutmen</li>
+          </ul>
+          <div class="row pb-2">
+            <div class="col-md-6">
               <div class="card">
-                <div class="card-header">Administrasi</div>
-                <div class="card-body">
-                  <ol>
-                    <li>Pendidikan Min D3 jurusan Akuntansi (Diutamakan Pria)</li>
-                    <li>Mampu bekerja dalam tim dan jadwal yang ketat</li>
-                    <li>Memiliki kemampuan komunikasi yang baik</li>
-                    <li>Memiliki kemampuan untuk belajar, pengalaman dalam administrasi proyek merupakan nilai tambah</li>
-                    <li>Bersedia ditempatkan di seluruh wilayah Indonesia</li>
-                  </ol>
+                <div class="card-header">Syarat Umum:</div>
+                  <div class="card-body">
+                    <ul>
+                      <li>Memiliki kemampuan untuk belajar</li>
+                      <li>Mampu bekerja dalam tim dan jadwal yang ketat</li>
+                      <li>Pengalaman dalam pengembangan aplikasi merupakan nilai tambah</li>
+                      <li>Bersedia ditempatkan di seluruh wilayah Indonesia</li>
+                    </ul>
                 </div>
               </div>
             </div>
-            <div class="col-md-6"> 
-              <div class="card"> 
+            <div class="col-md-6">
+              <div class="card">
                 <div class="card-header">Accounting</div>
                   <div class="card-body">
                     <p>1. Wanita, Single, Pendidikan D3 Akuntasi</p>
                     <p>2. Berdomisili di Yogyakarta</p>
-                    <p>3. Menguasai pengoperasian Linux dan OpenOffice�</p>                    
+                    <p>3. Menguasai pengoperasian Linux dan OpenOffice</p>     
                   </div>
+                </div>
               </div>
-            </div>
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-header">Android Programmer</div>
+              <div class="col-md-6"> 
+                <div class="card">
+                  <div class="card-header">Administrasi</div>
                   <div class="card-body">
                     <ol>
-                      <li>Min D3 Teknik Informatika/Elektro/Ilmu Komputer</li>
-                      <li>Menguasai Pemrograman menggunakan Android Studio (Java, Kotlin)</li>
-                      <li>Menguasai konsep pemrograman berorientasi objek</li>
-                      <li>Berpengalaman menggunakan API, JSON, XML</li>
-                      <li>Menguasai SQL merupakan nilai tambah</li>
-                      <li>Pengalaman dalam mengembangkan aplikasi berbasis android menjadi nilai tambah</li>
-                      <li>Mampu bekerja dalam tim dan jadwal yang ketat</li><li>Memiliki kemampuan komunikasi yang baik</li>
-                    </ol>
-                  </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-header">Database Administrator</div>
-                <div class="card-body"></div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-header">Desktop Programer</div>
-                  <div class="card-body">
-                    <ol>
-                      <li>Pendidikan Min D3 jurusan Teknologi Informasi, Teknik Elektro atau Ilmu Komputer</li>
-                      <li>Menguasai & familiar dengan Borland Delphi</li>
-                      <li>Memiliki kemampuan komunikasi yang baik</li>
-                      <li>>Menguasai & familiar dengan database MySQL/Interbase/Firebird SQL/SQL Server</li>
-                      <li>Memiliki kemampuan untuk belajar, pengalaman dalam pengembangan aplikasi merupakan nilai tambah</li>
-                      <li>Bersedia ditempatkan di seluruh wilayah Indonesia</li>
-                    </ol>
-                  </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-header">Junior Technical Support</div>
-                  <div class="card-body">
-                    <ol>
-                      <li>Pendidikan Min. SMK bidang komputer</li>
-                      <li>Diutamakan Laki-Laki</li>
-                      <li>Menguasai Komputer</li>
-                      <li>Bersedia ditempatkan di seluruh wilayah Indonesia (diutamakan wilayah Indonesia Timur)</li>
-                    </ol>
-                  </div>
-              </div>
-            </div>
-            <div class="col-md-6">        
-              <div class="card">
-                <div class="card-header">Network Administrator</div>
-                  <div class="card-body">
-                    <ol>
-                      <li>Pendidikan D3/S1 jurusan Teknologi Informasi, Teknik Elektro atau Ilmu Komputer</li>
-                      <li>Memiliki kemampuan administrasi dan pemecahan masalah Windows Server, dan infrastruktur jaringan komputer terkait internet dan intranet.</li>
-                      <li>Familiar dengan konsep dan konfigurasi jaringan LAN/WAN meliputi routing, firewall, nat, switching dan bridging.</li><li>Menguasai dan familiar dengan jaringan berbasis mikrotik routerOS lebih diutamakan.</li>
-                      <li>Memiliki pemikiran analitis yang baik dan keterampilan pemecahan masalah.</li>
-                      <li>Memiliki hubungan interpersonal yang baik, terampil berkomunikasi dan pola pikir berorientasi pelanggan.</li>
-                      <li>Memiliki inisiatif yang baik, cepat belajar, mampu beradaptasi dengan mudah, independen, serta mampu bekerja dalam tim dan jadwal yang ketat.</li>
-                      <li>Bersedia ditempatkan di seluruh wilayah Indonesia</li>
-                    </ol>                    
-                  </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-header">System Analyst</div>
-                 <div class="card-body">
-                   <ol>
-                     <li>Pendidikan Min S1 Bidang Komputer.</li>
-                     <li>Diutamakan Laki-laki.</li>
-                     <li>Mampu bekerja dalam tim dan jadwal yang ketat.</li>
-                     <li>Memiliki kemampuan komunikasi yang baik.</li>
-                     <li>Memiliki kemauan untuk belajar dan menguasai komputer.</li>
-                     <li>Bersedia ditempatkan di seluruh wilayah indonesia.</li><br><br><br>
-                    </ol>
-                  </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-header">Technical Support</div>
-                  <div class="card-body">
-                    <ol>
-                      <li>Pendidikan Min D3/S1 jurusan Teknologi Informasi, Teknik Elektro atau Ilmu Komputer</li>
-                      <li>Mampu bekerja dalam tim dan jadwal yang ketat.</li>
-                      <li>Memiliki kemampuan komunikasi yang baik.</li>
-                      <li>Memiliki kemauan untuk belajar, pengalaman dalam pengoperasian Mikrotik dan Windows Server lebih diutamakan.</li>
-                      <li>Bersedia ditempatkan di seluruh wilayah Indonesia.</li>
-                    </ol>
-                  </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-header">Web Programer</div>
-                  <div class="card-body">
-                    <ol>
-                      <li>Pendidikan Min D3/S1 jurusan Teknologi Informasi, Teknik Elektro atau Ilmu Komputer</li>
-                      <li>Menguasai dan familiar dengan PHP, MySQL, CSS, HTML, Javascript</li>
+                      <li>Pendidikan Min D3 jurusan Akuntansi (Diutamakan Pria)</li>
                       <li>Mampu bekerja dalam tim dan jadwal yang ketat</li>
                       <li>Memiliki kemampuan komunikasi yang baik</li>
-                      <li>Memiliki kemauan untuk belajar, pengalaman dalam mengembangkan web based application adalah nilai tambah</li>
+                      <li>Memiliki kemampuan untuk belajar, pengalaman dalam administrasi proyek merupakan nilai tambah</li>
                       <li>Bersedia ditempatkan di seluruh wilayah Indonesia</li>
                     </ol>
                   </div>
+                </div>
               </div>
-            </div>
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-header">Web Content Editor</div>
+              <div class="col-md-6"> 
+                <div class="card"> 
+                  <div class="card-header">Accounting</div>
+                    <div class="card-body">
+                      <p>1. Wanita, Single, Pendidikan D3 Akuntasi</p>
+                      <p>2. Berdomisili di Yogyakarta</p>
+                      <p>3. Menguasai pengoperasian Linux dan OpenOffice�</p>                    
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-header">Android Programmer</div>
+                    <div class="card-body">
+                      <ol>
+                        <li>Min D3 Teknik Informatika/Elektro/Ilmu Komputer</li>
+                        <li>Menguasai Pemrograman menggunakan Android Studio (Java, Kotlin)</li>
+                        <li>Menguasai konsep pemrograman berorientasi objek</li>
+                        <li>Berpengalaman menggunakan API, JSON, XML</li>
+                        <li>Menguasai SQL merupakan nilai tambah</li>
+                        <li>Pengalaman dalam mengembangkan aplikasi berbasis android menjadi nilai tambah</li>
+                        <li>Mampu bekerja dalam tim dan jadwal yang ketat</li><li>Memiliki kemampuan komunikasi yang baik</li>
+                      </ol>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-header">Database Administrator</div>
+                  <div class="card-body"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-header">Desktop Programer</div>
+                    <div class="card-body">
+                      <ol>
+                        <li>Pendidikan Min D3 jurusan Teknologi Informasi, Teknik Elektro atau Ilmu Komputer</li>
+                        <li>Menguasai & familiar dengan Borland Delphi</li>
+                        <li>Memiliki kemampuan komunikasi yang baik</li>
+                        <li>>Menguasai & familiar dengan database MySQL/Interbase/Firebird SQL/SQL Server</li>
+                        <li>Memiliki kemampuan untuk belajar, pengalaman dalam pengembangan aplikasi merupakan nilai tambah</li>
+                        <li>Bersedia ditempatkan di seluruh wilayah Indonesia</li>
+                      </ol>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-header">Junior Technical Support</div>
+                    <div class="card-body">
+                      <ol>
+                        <li>Pendidikan Min. SMK bidang komputer</li>
+                        <li>Diutamakan Laki-Laki</li>
+                        <li>Menguasai Komputer</li>
+                        <li>Bersedia ditempatkan di seluruh wilayah Indonesia (diutamakan wilayah Indonesia Timur)</li>
+                      </ol>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-6">        
+                <div class="card">
+                  <div class="card-header">Network Administrator</div>
+                    <div class="card-body">
+                      <ol>
+                        <li>Pendidikan D3/S1 jurusan Teknologi Informasi, Teknik Elektro atau Ilmu Komputer</li>
+                        <li>Memiliki kemampuan administrasi dan pemecahan masalah Windows Server, dan infrastruktur jaringan komputer terkait internet dan intranet.</li>
+                        <li>Familiar dengan konsep dan konfigurasi jaringan LAN/WAN meliputi routing, firewall, nat, switching dan bridging.</li><li>Menguasai dan familiar dengan jaringan berbasis mikrotik routerOS lebih diutamakan.</li>
+                        <li>Memiliki pemikiran analitis yang baik dan keterampilan pemecahan masalah.</li>
+                        <li>Memiliki hubungan interpersonal yang baik, terampil berkomunikasi dan pola pikir berorientasi pelanggan.</li>
+                        <li>Memiliki inisiatif yang baik, cepat belajar, mampu beradaptasi dengan mudah, independen, serta mampu bekerja dalam tim dan jadwal yang ketat.</li>
+                        <li>Bersedia ditempatkan di seluruh wilayah Indonesia</li>
+                      </ol>                    
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-header">System Analyst</div>
                   <div class="card-body">
                     <ol>
-                    <li>1. Pendidikan D3 jurusan Ilmu Komunikasi/Jurnalistik/Bahasa</li>
-                    <li>2. Berpengalaman mengelola website dan media sosial3.</li>
-                    <li>3. Diutamakan memiliki kemampuan Bahasa Inggris</li>
-                    <li>4. Memiliki kemampuan dasar pengolahan gambar digital (PhotoShop, CorelDraw)</li>
-                    </ol>
-                  </div>
+                      <li>Pendidikan Min S1 Bidang Komputer.</li>
+                      <li>Diutamakan Laki-laki.</li>
+                      <li>Mampu bekerja dalam tim dan jadwal yang ketat.</li>
+                      <li>Memiliki kemampuan komunikasi yang baik.</li>
+                      <li>Memiliki kemauan untuk belajar dan menguasai komputer.</li>
+                      <li>Bersedia ditempatkan di seluruh wilayah indonesia.</li><br><br><br>
+                      </ol>
+                    </div>
+                </div>
               </div>
-            </div>              
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-header">Technical Support</div>
+                    <div class="card-body">
+                      <ol>
+                        <li>Pendidikan Min D3/S1 jurusan Teknologi Informasi, Teknik Elektro atau Ilmu Komputer</li>
+                        <li>Mampu bekerja dalam tim dan jadwal yang ketat.</li>
+                        <li>Memiliki kemampuan komunikasi yang baik.</li>
+                        <li>Memiliki kemauan untuk belajar, pengalaman dalam pengoperasian Mikrotik dan Windows Server lebih diutamakan.</li>
+                        <li>Bersedia ditempatkan di seluruh wilayah Indonesia.</li>
+                      </ol>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-header">Web Programer</div>
+                    <div class="card-body">
+                      <ol>
+                        <li>Pendidikan Min D3/S1 jurusan Teknologi Informasi, Teknik Elektro atau Ilmu Komputer</li>
+                        <li>Menguasai dan familiar dengan PHP, MySQL, CSS, HTML, Javascript</li>
+                        <li>Mampu bekerja dalam tim dan jadwal yang ketat</li>
+                        <li>Memiliki kemampuan komunikasi yang baik</li>
+                        <li>Memiliki kemauan untuk belajar, pengalaman dalam mengembangkan web based application adalah nilai tambah</li>
+                        <li>Bersedia ditempatkan di seluruh wilayah Indonesia</li>
+                      </ol>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-header">Web Content Editor</div>
+                    <div class="card-body">
+                      <ol>
+                      <li>1. Pendidikan D3 jurusan Ilmu Komunikasi/Jurnalistik/Bahasa</li>
+                      <li>2. Berpengalaman mengelola website dan media sosial3.</li>
+                      <li>3. Diutamakan memiliki kemampuan Bahasa Inggris</li>
+                      <li>4. Memiliki kemampuan dasar pengolahan gambar digital (PhotoShop, CorelDraw)</li>
+                      </ol>
+                    </div>
+                </div>
+              </div>              
+          </div>
+        </div>
+          </div>
         </div>
         <footer class="pt-3" style="border-top : 1px solid rgb(175,0,0);">
-        <p>© Global Intermedia</p>
-      </footer>
+          <p>© Global Intermedia</p>
+        </footer>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="background-color:#ffbc3e; padding-vertical:0;">
+            <h6 class="modal-title" id="exampleModalLabel">Login Calon Pegawai</h6>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <button type="submit" class="btn btn-success">Sign In</button>
+            </form>
+        </div>
       </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

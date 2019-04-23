@@ -12,21 +12,19 @@ body{
 #clr{
     color: #333;
 }
-
 .clr:hover{
-    color: white;  
+    color: white; 
 }
-
-.container{
-    padding-top: 80px;
-    background-color: #fff;
-}
-
 .card{
     font-size: 14px;    
 }
-
 .card-header{
     background-color:#ffbc3e; 
+}
+.container{
+    padding-top:80px;
+}
+.card {
+    margin-bottom : 10px;
 }
 
