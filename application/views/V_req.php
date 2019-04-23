@@ -20,10 +20,10 @@
       <div class="collapse navbar-collapse navbar-inline dropdown justify-content-end">
         <ul class="nav navbar-nav navbar-right">
           <li class="dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Login</a>
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="margin-right : 110px">Login</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#"> <ion-icon name="person"></ion-icon> Admin PKL</a></li>
-            <li><a class="dropdown-item" href="#"> <ion-icon name="person"></ion-icon> Admin Pegawai</a></li>
+            <li><a class="dropdown-item" href="<?= site_url('C_loginadmin') ?>"> <ion-icon name="person"></ion-icon> Admin PKL</a></li>
+            <li><a class="dropdown-item" href="<?= site_url('C_loginadminPKL') ?>"> <ion-icon name="person"></ion-icon> Admin Pegawai</a></li>
           </ul>
           </li>
         </ul>
