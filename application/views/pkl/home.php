@@ -9,24 +9,26 @@
     <link rel="stylesheet" href="<?= base_url('assets/bootstrap/css/req.css')?>">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="border-bottom : 1px solid black">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="border-bottom : 1px solid black; padding-left : 120px; padding-right : 120px">
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Aplikasi Rekrutmen <span class="sr-only">(current)</span></a>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Penerimaan PKL<span class="sr-only">(current)</span></a>
           </li>
         </ul>
-      </div>
-      <div class="collapse navbar-collapse navbar-inline dropdown justify-content-end">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="margin-right : 110px">Login</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="<?= site_url('C_loginadmin') ?>"> <ion-icon name="person"></ion-icon> Admin PKL</a></li>
-            <li><a class="dropdown-item" href="<?= site_url('C_loginadminPKL') ?>"> <ion-icon name="person"></ion-icon> Admin Pegawai</a></li>
+        <?php if ($this->session->userdata('status')===NULL) : ?>
+          <form class="form-inline my-2 my-lg-0" action="<?= site_url('C_pkl/login') ?>" method="post">
+            <input class="form-control mr-sm-2" name="email" type="email" placeholder="Email" aria-label="Search">
+            <input class="form-control mr-sm-2" name="password" type="password" placeholder="Password" aria-label="Search">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+          </form>
+        <?php else : ?>
+          <ul class="navbar-nav mr-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="<?= site_url('C_pkl/logout') ?>">logout<span class="sr-only"></span></a>
+            </li>
           </ul>
-          </li>
-        </ul>
+        <?php endif ?>
       </div>
     </nav>
 
@@ -45,16 +47,17 @@
                 <br><br>
             </p>
             </div>
-               
           </div>
           <div class="col-md-3">
           <div class="card">
-              <div class="card-header" style="background-color:#ffbc3e">Silahkan Pilih Halaman User</div>
+              <div class="card-header" style="background-color:#ffbc3e">Syarat umum :</div>
               <div class="card-body">
-              <a class="btn btn-primary btn-block" href="<?= site_url('C_dpegawai') ?>">
-                  <ion-icon name="person"></ion-icon> Daftar Pegawai</a>
-              <a class="btn btn-info btn-block" href="<?= site_url('C_pkl') ?>">
-                  <ion-icon name="person"></ion-icon> Daftar Prakerin/PKL</a>
+              <?php if ($this->session->userdata('status')===NULL) : ?>
+                <a class="btn btn-primary btn-block" href="<?= site_url('C_pkl/form_register') ?>">Registrasi <ion-icon name="log-in"></ion-icon></a>
+              <?php else : ?>
+                <a class="btn btn-primary btn-block" href="<?= site_url('C_pkl/form_editprofil') ?>">Edit Profil <ion-icon name="log-in"></ion-icon></a>
+              <?php endif ?>
+              <a class="btn btn-info btn-block" href="<?= site_url('C_pkl/pengumuman') ?>">Lihat Pengumuman</a>
               </div>
           </div>
           </div>
@@ -69,5 +72,3 @@
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
 </body>
 </html>
-        
-        
