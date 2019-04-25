@@ -7,11 +7,14 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="icon" href="<?= base_url("assets/img/g.png")?>" type="image/gif" sizes="20x20" >
   <title>Login Admin PKL</title>
-  <link rel="stylesheet" href="<?= base_url('assets/bootstrap/css/dpegawai.css')?>">
+  <link rel="stylesheet" href="<?= base_url('assets/bootstrap/css/homepegawai.css')?>">
 </head>
 <style>
   body{
     background-color: #d33c27;
+  }
+  navbar{
+    padding : 5px 5px;
   }
 </style>
 <body>

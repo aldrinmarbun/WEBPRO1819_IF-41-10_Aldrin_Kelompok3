@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <title>Pendaftaran Global Intermedia</title>
     <link rel="stylesheet" href="<?= base_url('assets/bootstrap/css/req.css')?>">
-    <link rel="icon" href="<?= base_url("assets/img/g.png")?>" type="image/gif" sizes="20x20" >
 </head>
+<style>
+</style>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="border-bottom : 1px solid black">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="border-bottom : 1px solid black;">
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
@@ -21,7 +22,7 @@
       <div class="collapse navbar-collapse navbar-inline dropdown justify-content-end">
         <ul class="nav navbar-nav navbar-right">
           <li class="dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="margin-right : 113px">Login</a>
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="margin-right : 90px">Login</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="<?= site_url('C_loginadmin') ?>"> <ion-icon name="person"></ion-icon> Admin PKL</a></li>
             <li><a class="dropdown-item" href="<?= site_url('C_loginadminPKL') ?>"> <ion-icon name="person"></ion-icon> Admin Pegawai</a></li>

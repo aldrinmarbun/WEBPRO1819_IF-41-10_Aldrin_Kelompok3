@@ -4,8 +4,8 @@ body{
 .navbar{
     background-color: black;
     float : left;
-    padding: 15px 15px;
-    font-size: 18px;
+    padding: 8px 16px;
+    font-size: 16px;
     line-height: 20px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

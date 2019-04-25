@@ -10,10 +10,10 @@
     <link rel="icon" href="<?= base_url("assets/img/g.png")?>" type="image/gif" sizes="20x20" >
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm fixed-top" style="font-size : 14px;">
+    <nav class="navbar navbar-expand-sm fixed-top" style="font-size : 15px;">
         <div class="collapse navbar-collapse "  id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto" style="margin-left : 115px;">
-                <li class="nav-link"><a href="<?= site_url("C_homepegawai")?>" id="clr" style="font-size : 14px;"><ion-icon name="home"></ion-icon> Halaman Rekrutmen </a></li>
+                <li class="nav-link"><a href="<?= site_url("C_homepegawai")?>" id="clr"><ion-icon name="home"></ion-icon> Halaman Rekrutmen </a></li>
                 <li class="nav-link"><a  href="<?= site_url("C_luluseleksi")?>" id="clr"><ion-icon name="information-circle"></ion-icon> Pengumuman Lolos Seleksi</a></li>
             </ul>
         </div>

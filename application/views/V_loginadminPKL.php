@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="icon" href="<?= base_url("assets/img/g.png")?>" type="image/gif" sizes="20x20" >
   <title>Login Admin PKL</title>
-  <link rel="stylesheet" href="<?= base_url('assets/bootstrap/css/dpegawai.css')?>">
+  <link rel="stylesheet" href="<?= base_url('assets/bootstrap/css/homepegawai.css')?>">
 </head>
 <style>
   body{
@@ -24,7 +24,7 @@
       <div class="collapse navbar-collapse navbar-inline dropdown justify-content-end">
         <ul class="nav navbar-nav navbar-right">
           <li class="dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" id="clr" style="margin-right : 90px;"><ion-icon name="logo-windows"></ion-icon>  Login</a>
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" id="clr"><ion-icon name="logo-windows"></ion-icon>  Login</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" class="load-modal" href="#"> <ion-icon name="person"></ion-icon> Admin PKL</a></li>
             <li><a class="dropdown-item" class="load-modal" href="#"><ion-icon name="person"></ion-icon> Admin Pegawai</a></li>
