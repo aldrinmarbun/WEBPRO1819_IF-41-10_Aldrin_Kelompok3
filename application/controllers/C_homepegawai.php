@@ -1,7 +1,7 @@
 <?php
 defined ('BASEPATH') OR exit ('No direct script access allowed');
 
-class C_dpegawai extends CI_Controller {
+class C_homepegawai extends CI_Controller {
 
         public function __construct()
         {
@@ -10,7 +10,7 @@ class C_dpegawai extends CI_Controller {
 
         public function index()
         {
-            $this->load->view('V_dpegawai');
+            $this->load->view('pegawai/V_homepegawai');
             
         }
 }

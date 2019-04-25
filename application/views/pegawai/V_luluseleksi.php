@@ -13,7 +13,7 @@
     <nav class="navbar navbar-expand-sm fixed-top" style="font-size : 14px;">
         <div class="collapse navbar-collapse "  id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto" style="margin-left : 115px;">
-                <li class="nav-link"><a href="<?= site_url("C_dpegawai")?>" id="clr" style="font-size : 14px;"><ion-icon name="home"></ion-icon> Halaman Rekrutmen </a></li>
+                <li class="nav-link"><a href="<?= site_url("C_homepegawai")?>" id="clr" style="font-size : 14px;"><ion-icon name="home"></ion-icon> Halaman Rekrutmen </a></li>
                 <li class="nav-link"><a  href="<?= site_url("C_luluseleksi")?>" id="clr"><ion-icon name="information-circle"></ion-icon> Pengumuman Lolos Seleksi</a></li>
             </ul>
         </div>
@@ -58,8 +58,8 @@
         </div>
     </div>
     <footer class="pt-3" style="border-top : 1px solid rgb(175,0,0);">
-          <p>© Global Intermedia</p>
-        </footer>
+        <p>© Global Intermedia</p>
+    </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

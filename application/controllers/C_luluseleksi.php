@@ -10,7 +10,7 @@ class C_luluseleksi extends CI_Controller {
 
         public function index()
         {
-            $this->load->view('V_luluseleksi');
+            $this->load->view('pegawai/V_luluseleksi');
             
         }
 }

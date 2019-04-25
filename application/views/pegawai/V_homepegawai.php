@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <title>Home Penerimaan Pegawai</title>
-    <link rel="stylesheet" href="<?= base_url('assets/bootstrap/css/dpegawai.css')?>">
+    <link rel="stylesheet" href="<?= base_url('assets/bootstrap/css/homepegawai.css')?>">
     <link rel="icon" href="<?= base_url("assets/img/g.png")?>" type="image/gif" sizes="20x20" >
 </head>
 <body>
     <nav class="navbar navbar-expand-sm fixed-top">
       <div class="collapse navbar-collapse "  id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-link"><a href="<?= site_url("C_dpegawai")?>" id="clr"><ion-icon name="home"></ion-icon> Halaman Rekrutmen </a></li>
+            <li class="nav-link"><a href="<?= site_url("C_homepegawai")?>" id="clr"><ion-icon name="home"></ion-icon> Halaman Rekrutmen </a></li>
             <li class="nav-link"><a href="<?= site_url('C_luluseleksi')?>" id="clr"><ion-icon name="information-circle"></ion-icon> Pengumuman Lolos Seleksi</a></li>
         </ul>
       </div>
@@ -27,7 +27,7 @@
           </ul>
         </ul>
       </div>
-  </nav>
+    </nav>
     <div class="container">
       <img class="img-fluid rounded-lg mt-3 mb-2" src="<?= base_url("assets/img/rek.jpg")?>">
       <div class="row pb-2">
@@ -231,13 +231,7 @@
           </div>
           <div class="modal-body">
             <form action="">
-              <div class="form-group">
-                <input type="email" class="form-control" id="registerInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-              </div>
-              <div class="form-group">
-                <input type="password" class="form-control" id="registerInputPassword1" placeholder="Password">
-              </div>
-              <button type="submit" class="btn btn-success">Sign In</button>
+              
             </form>
         </div>
       </div>
@@ -257,7 +251,7 @@
           <div class="modal-body">
             <form action="">
               <div class="form-group">
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
               </div>
               <div class="form-group">
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
