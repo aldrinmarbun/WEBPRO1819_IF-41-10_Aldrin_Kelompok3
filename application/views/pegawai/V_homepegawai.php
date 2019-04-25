@@ -12,13 +12,13 @@
 <body>
     <nav class="navbar navbar-expand-sm fixed-top">
       <div class="collapse navbar-collapse "  id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto" style="margin-left:95px;">
             <li class="nav-link"><a href="<?= site_url("C_homepegawai")?>" id="clr"><ion-icon name="home"></ion-icon> Halaman Rekrutmen </a></li>
             <li class="nav-link"><a href="<?= site_url('C_luluseleksi')?>" id="clr"><ion-icon name="information-circle"></ion-icon> Pengumuman Lolos Seleksi</a></li>
         </ul>
       </div>
       <div class="collapse navbar-collapse navbar-inline dropdown justify-content-end">
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right" style="margin-right:100px;">
           <li class="dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" id="clr"><ion-icon name="logo-windows"></ion-icon>  Login Calon Pegawai</a>
           <ul class="dropdown-menu">
@@ -231,8 +231,48 @@
           </div>
           <div class="modal-body">
             <form action="">
-              
+              <div class="form-group row">
+                  <label class="col-sm-4 col-form-label">Nama Lengkap</label>
+                    <div class="col-sm-8">
+                      <input name="" type="text" class="form-control" value="" placeholder="Nama Lengkap">
+                    </div>
+              </div>
+              <div class="form-group row">
+									<label class="col-sm-4 col-form-label">Jenis Kelamin :</label>
+                  <div class="col-sm-8">
+                    <select id="Pilih" class="form-control">
+                        <option selected="">- Pilih Jenis Kelamin -</option>
+                        <option>Wanita</option>
+                        <option>Pria</option>
+										</select>
+                  </div>
+              </div>
+             <div class="form-group row">
+                <label class="col-sm-4 col-form-label">Email</label>
+                <div class="col-sm-8">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                </div>
+             </div>
+             <div class="form-group row">
+                <label class="col-sm-4 col-form-label">Password</label>
+                <div class="col-sm-8">
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+             </div>
+             <div class="form-group row">
+                <label class="col-sm-4 col-form-label">Re-Password</label>
+                <div class="col-sm-8">
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Re-Password">
+                </div>
+             </div>
+             <div class="form-group row">
+                  <label class="col-sm-4 col-form-label">Hp</label>
+                    <div class="col-sm-8">
+                      <input name="" type="text" class="form-control" value="" placeholder="Nomor Hp">
+                    </div>
+              </div>
             </form>
+            <button type="submit" class="btn btn-success btn-block"><a href="<?= site_url('C_homepegawai')?>"></a>Daftar</button>
         </div>
       </div>
     </div>
@@ -256,9 +296,9 @@
               <div class="form-group">
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
               </div>
-              <button type="submit" class="btn btn-success">Sign In</button>
+              <button type="submit" class="btn btn-success"> <a href="#"></a> Sign In</button>
             </form>
-        </div>
+        
       </div>
     </div>
     </div>
